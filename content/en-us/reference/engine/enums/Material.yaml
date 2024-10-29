@@ -289,3 +289,13 @@ items:
     value: 2311
     tags: []
     deprecation_message: ''
+methods:
+  - name: FromName
+    summary: |
+      Returns the material corresponding to the given string.
+  - name: FromValue
+    summary: |
+      Returns the material corresponding to the given number.
+  - name: GetEnumItems
+    summary: |
+      Returns a list of all enum items for the Material enum.
